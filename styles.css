@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .15rem;
+}
+#btn-random{
+    background-color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(125, 125, 125);
+    transition: .2s all;
+    cursor: pointer;
+    height: 30px;
+    width: 15%;
+
+}
+#btn-random:hover{
+    background-color: rgb(201, 201, 201);
+}
+#btn-random:active{
+    height: 35px;
+    width: 16%;
+
+}
